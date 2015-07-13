@@ -1,0 +1,78 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="800dp"
+                  android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c3" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="@string/dummy_location"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/reports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/report_text"
+        android:textColor="#006f00"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <!--     android:layout_below="@id/relativeLayout1"
+     -->
+    <ListView
+        android:id="@+id/lvCustomReports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <!-- android:layout_below="@+id/reports"  -->
+
+    <TextView
+        android:id="@+id/blocks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/block_text"
+		android:textColor="#006f00"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<!--         android:layout_below="@id/lvCustomReports" -->
+    
+        <ListView
+        android:id="@+id/lvCustomBlocks"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+   <!--   android:layout_below="@id/blocks" -->
+
+ </LinearLayout> 
+ </ScrollView>
+</RelativeLayout>

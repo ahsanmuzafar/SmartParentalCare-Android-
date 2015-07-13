@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartParentalCare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add Child</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="dummy_name">Ahmad</string>
+    <string name="dummy_location">Ichra, Lahore</string>
+    <string name="dummy_stats">Call: 13 | SMS: 29</string>
+    <string name="title_activity_stats">Stats</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="report_text">Reports</string>
+    <string name="block_text">Block Service</string>
+    <string name="text_Call">Call</string>
+    <string name="text_sms">SMS</string>
+    <string name="text_app">Apps</string>
+    <string name="text_screen">Screen</string>
+    <string name="text_ch_phn">Child \'s contact number</string>
+    <string name="text_generate_key">Generate Key</string>
+    <string name="child_number">child name</string>
+    <string name="title_activity_create_accout">CreateAccout</string>
+    <string name="title_activity_verification">Verification</string>
+    <string name="verify_text">Verify</string>
+    <string name="Child_Name">Name</string>
+    <string name="Add">Add</string>
+    <string name="TakenewPhoto">Take new Photo</string>
+    <string name="selectFromGallery">Select From Gallery</string>
+    <string name="Addpicture">Add Picture</string>
+    <string name="title_activity_child_first_screen">ChildFirstScreen</string>
+    <string name="Send">Send</string>
+    <string name="msg"></string>
+    <string name="reply">Reply</string>
+    <string name="title_activity_set_prefs">SetPrefs</string>
+    <string name="title_activity_show_prefs">ShowPrefs</string>
+    <string name="title_activity_second_main">SecondMainActivity</string>
+
+</resources>

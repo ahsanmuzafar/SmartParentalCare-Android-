@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+     >
+    <TextView
+        android:id="@+id/textViewCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        
+        android:layout_marginBottom="16dp"
+        android:text="@string/TakenewPhoto"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/textViewCamera"
+        android:layout_marginBottom="16dp"
+        android:text="@string/selectFromGallery"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewGallery"
+        android:layout_centerHorizontal="true"
+        android:text="Ok" />
+    
+</RelativeLayout>
